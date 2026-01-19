@@ -20,7 +20,7 @@ const PizzaItem = ({ pizza }: { pizza: Pizza }) => {
         <td>{pizza.name}</td>
         <td className='text-end px-1'>{pizza.price.rectangularSlice ? Intl.NumberFormat('it-IT', { style: 'currency', currency: 'EUR' }).format(pizza.price.rectangularSlice / 100) : '-'}</td>
         <td className='text-end px-1'>{pizza.price.mormal ? Intl.NumberFormat('it-IT', { style: 'currency', currency: 'EUR' }).format(pizza.price.mormal / 100) : '-'}</td>
-        <td className='text-end px-1'>{pizza.price.family ? Intl.NumberFormat('it-IT', { style: 'currency', currency: 'EUR' }).format((pizza.price.family + 50) / 100) : '-'}</td>
+        <td className='text-end px-1'>{pizza.price.family ? Intl.NumberFormat('it-IT', { style: 'currency', currency: 'EUR' }).format(pizza.price.family / 100) : '-'}</td>
       </tr>
       <tr className="text-[1px] text-gray-400 font-light italic">
         <td colSpan={4} className="pb-1 leading-none">{pizza.ingredients.map((ingredient) => ingredient.name).join(', ')}</td>

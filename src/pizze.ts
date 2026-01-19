@@ -47,7 +47,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 900,
-            family: 1700,
+            family: 1750,
             regularSlice: 300,
         }
     },
@@ -81,7 +81,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 900,
-            family: 1700,
+            family: 1750,
             regularSlice: 300,
         }
     },
@@ -115,7 +115,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 600,
             mormal: 1000,
-            family: 1900,
+            family: 1950,
             regularSlice: 300,
         }
     },
@@ -154,7 +154,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 650,
             mormal: 1200,
-            family: 2400,
+            family: 2450,
             regularSlice: 300,
         }
     },
@@ -188,7 +188,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 600,
             mormal: 1000,
-            family: 1900,
+            family: 1950,
             regularSlice: 300,
         }
     },
@@ -222,7 +222,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 650,
             mormal: 1100,
-            family: 2200,
+            family: 2250,
             regularSlice: 300,
         }
     },
@@ -261,7 +261,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 650,
             mormal: 1200,
-            family: 2200,
+            family: 2250,
             regularSlice: 300,
         }
     },
@@ -285,7 +285,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: null,
             mormal: 450,
-            family: 850,
+            family: 900,
             regularSlice: 300,
         }
     },
@@ -314,7 +314,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 350,
             mormal: 450,
-            family: 900,
+            family: 950,
             regularSlice: 300,
         }
     },
@@ -338,7 +338,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 400,
             mormal: 600,
-            family: 1100,
+            family: 1150,
             regularSlice: 300,
         }
     },
@@ -367,7 +367,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 450,
             mormal: 700,
-            family: 1400,
+            family: 1450,
             regularSlice: 300,
         }
     },
@@ -396,7 +396,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 450,
             mormal: 700,
-            family: 1400,
+            family: 1450,
             regularSlice: 300,
         }
     },
@@ -425,7 +425,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 450,
             mormal: 700,
-            family: 1400,
+            family: 1450,
             regularSlice: 300,
         }
     },
@@ -464,7 +464,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 500,
             mormal: 750,
-            family: 1450,
+            family: 1500,
             regularSlice: 300,
         }
     },
@@ -498,7 +498,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 500,
             mormal: 750,
-            family: 1450,
+            family: 1500,
             regularSlice: 300,
         }
     },
@@ -532,7 +532,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 500,
             mormal: 750,
-            family: 1450,
+            family: 1500,
             regularSlice: 300,
         }
     },
@@ -566,7 +566,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 500,
             mormal: 750,
-            family: 1450,
+            family: 1500,
             regularSlice: 300,
         }
     },
@@ -600,7 +600,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 500,
             mormal: 750,
-            family: 1450,
+            family: 1500,
             regularSlice: 300,
         }
     },
@@ -634,7 +634,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 500,
             mormal: 750,
-            family: 1450,
+            family: 1500,
             regularSlice: 300,
         }
     },
@@ -683,7 +683,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 800,
-            family: 1550,
+            family: 1600,
             regularSlice: 300,
         }
     },
@@ -722,7 +722,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 800,
-            family: 1550,
+            family: 1600,
             regularSlice: 300,
         }
     },
@@ -766,7 +766,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 800,
-            family: 1550,
+            family: 1600,
             regularSlice: 300,
         }
     },
@@ -810,7 +810,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 800,
-            family: 1550,
+            family: 1600,
             regularSlice: 300,
         }
     },
@@ -834,7 +834,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 800,
-            family: 1550,
+            family: 1600,
             regularSlice: 300,
         }
     },
@@ -873,7 +873,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 800,
-            family: 1550,
+            family: 1600,
             regularSlice: 300,
         }
     },
@@ -912,7 +912,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 850,
-            family: 1600,
+            family: 1650,
             regularSlice: 300,
         }
     },
@@ -956,7 +956,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 850,
-            family: 1600,
+            family: 1650,
             regularSlice: 300,
         }
     },
@@ -995,7 +995,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 850,
-            family: 1600,
+            family: 1650,
             regularSlice: 300,
         }
     },
@@ -1034,7 +1034,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 850,
-            family: 1600,
+            family: 1650,
             regularSlice: 300,
         }
     },
@@ -1073,7 +1073,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 850,
-            family: 1600,
+            family: 1650,
             regularSlice: 300,
         }
     },
@@ -1112,7 +1112,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 850,
-            family: 1600,
+            family: 1650,
             regularSlice: 300,
         }
     },
@@ -1151,7 +1151,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 850,
-            family: 1600,
+            family: 1650,
             regularSlice: 300,
         }
     },
@@ -1190,7 +1190,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 850,
-            family: 1600,
+            family: 1650,
             regularSlice: 300,
         }
     },
@@ -1229,7 +1229,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 850,
-            family: 1600,
+            family: 1650,
             regularSlice: 300,
         }
     },
@@ -1268,7 +1268,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 850,
-            family: 1600,
+            family: 1650,
             regularSlice: 300,
         }
     },
@@ -1312,7 +1312,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 850,
-            family: 1600,
+            family: 1650,
             regularSlice: 300,
         }
     },
@@ -1341,7 +1341,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 850,
-            family: 1600,
+            family: 1650,
             regularSlice: 300,
         }
     },
@@ -1390,7 +1390,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 850,
-            family: 1600,
+            family: 1650,
             regularSlice: 300,
         }
     },
@@ -1424,7 +1424,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 850,
-            family: 1600,
+            family: 1650,
             regularSlice: 300,
         }
     },
@@ -1463,7 +1463,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 850,
-            family: 1600,
+            family: 1650,
             regularSlice: 300,
         }
     },
@@ -1497,7 +1497,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 550,
             mormal: 850,
-            family: 1600,
+            family: 1650,
             regularSlice: 300,
         }
     },
@@ -1536,7 +1536,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 600,
             mormal: 850,
-            family: 1650,
+            family: 1700,
             regularSlice: 300,
         }
     },
@@ -1575,7 +1575,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 600,
             mormal: 850,
-            family: 1650,
+            family: 1700,
             regularSlice: 300,
         }
     },
@@ -1619,7 +1619,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 600,
             mormal: 850,
-            family: 1650,
+            family: 1700,
             regularSlice: 300,
         }
     },
@@ -1663,7 +1663,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 600,
             mormal: 900,
-            family: 1700,
+            family: 1750,
             regularSlice: 300,
         }
     },
@@ -1702,7 +1702,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 600,
             mormal: 900,
-            family: 1700,
+            family: 1750,
             regularSlice: 300,
         }
     },
@@ -1741,7 +1741,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 600,
             mormal: 900,
-            family: 1700,
+            family: 1750,
             regularSlice: 300,
         }
     },
@@ -1785,7 +1785,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 600,
             mormal: 900,
-            family: 1700,
+            family: 1750,
             regularSlice: 300,
         }
     },
@@ -1824,7 +1824,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 600,
             mormal: 900,
-            family: 1700,
+            family: 1750,
             regularSlice: 300,
         }
     },
@@ -1868,7 +1868,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 600,
             mormal: 900,
-            family: 1700,
+            family: 1750,
             regularSlice: 300,
         }
     },
@@ -1902,7 +1902,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 650,
             mormal: 900,
-            family: 1750,
+            family: 1800,
             regularSlice: 300,
         }
     },
@@ -1941,7 +1941,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 650,
             mormal: 950,
-            family: 1800,
+            family: 1850,
             regularSlice: 300,
         }
     },
@@ -1985,7 +1985,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 650,
             mormal: 950,
-            family: 1800,
+            family: 1850,
             regularSlice: 300,
         }
     },
@@ -2034,7 +2034,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 650,
             mormal: 950,
-            family: 1800,
+            family: 1850,
             regularSlice: 300,
         }
     },
@@ -2078,7 +2078,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 650,
             mormal: 950,
-            family: 1800,
+            family: 1850,
             regularSlice: 300,
         }
     },
@@ -2117,7 +2117,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 650,
             mormal: 950,
-            family: 1800,
+            family: 1850,
             regularSlice: 300,
         }
     },
@@ -2156,7 +2156,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 650,
             mormal: 950,
-            family: 1800,
+            family: 1850,
             regularSlice: 300,
         }
     },
@@ -2200,7 +2200,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 650,
             mormal: 950,
-            family: 1800,
+            family: 1850,
             regularSlice: 300,
         }
     },
@@ -2229,7 +2229,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 650,
             mormal: 950,
-            family: 1800,
+            family: 1850,
             regularSlice: 300,
         }
     },
@@ -2268,7 +2268,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 650,
             mormal: 950,
-            family: 1800,
+            family: 1850,
             regularSlice: 300,
         }
     },
@@ -2307,7 +2307,7 @@ export const pizze: Pizza[] = [
         price: {
             rectangularSlice: 650,
             mormal: 1000,
-            family: 1950,
+            family: 2000,
             regularSlice: 300,
         }
     },
