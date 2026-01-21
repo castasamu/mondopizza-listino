@@ -16,6 +16,12 @@ export type Pizza = {
     }
 }
 
+export type Item = {
+    _id: string
+    name: string
+    price: number
+}
+
 export const pizze: Pizza[] = [
     {
         _id: '150',
@@ -158,40 +164,40 @@ export const pizze: Pizza[] = [
             regularSlice: 300,
         }
     },
-    {
-        _id: '154',
-        name: 'Filòs',
-        isSpecial: true,
-        isAvailable: false,
-        ingredients: [
-            {
-                name: 'Mozz.',
-                postBake: false,
-                sort: 1,
-            },
-            {
-                name: 'Salsiccia Mantovana',
-                postBake: false,
-                sort: 2,
-            },
-            {
-                name: 'Crema di grana padano DOP',
-                postBake: true,
-                sort: 3,
-            },
-            {
-                name: 'Riduzione di lambrusco mantovano',
-                postBake: true,
-                sort: 4,
-            },
-        ],
-        price: {
-            rectangularSlice: 600,
-            mormal: 1000,
-            family: 1950,
-            regularSlice: 300,
-        }
-    },
+    // {
+    //     _id: '154',
+    //     name: 'Filòs',
+    //     isSpecial: true,
+    //     isAvailable: false,
+    //     ingredients: [
+    //         {
+    //             name: 'Mozz.',
+    //             postBake: false,
+    //             sort: 1,
+    //         },
+    //         {
+    //             name: 'Salsiccia Mantovana',
+    //             postBake: false,
+    //             sort: 2,
+    //         },
+    //         {
+    //             name: 'Crema di grana padano DOP',
+    //             postBake: true,
+    //             sort: 3,
+    //         },
+    //         {
+    //             name: 'Riduzione di lambrusco mantovano',
+    //             postBake: true,
+    //             sort: 4,
+    //         },
+    //     ],
+    //     price: {
+    //         rectangularSlice: 600,
+    //         mormal: 1000,
+    //         family: 1950,
+    //         regularSlice: 300,
+    //     }
+    // },
     {
         _id: '155',
         name: 'Romagnola',
@@ -2204,35 +2210,35 @@ export const pizze: Pizza[] = [
             regularSlice: 300,
         }
     },
-    {
-        _id: '51',
-        name: 'Frutti di mare',
-        isSpecial: false,
-        isAvailable: false,
-        ingredients: [
-            {
-                name: 'Pom.',
-                postBake: false,
-                sort: 1,
-            },
-            {
-                name: 'Mozz.',
-                postBake: false,
-                sort: 2,
-            },
-            {
-                name: 'Frutti di mare',
-                postBake: false,
-                sort: 3,
-            },
-        ],
-        price: {
-            rectangularSlice: 650,
-            mormal: 950,
-            family: 1850,
-            regularSlice: 300,
-        }
-    },
+    // {
+    //     _id: '51',
+    //     name: 'Frutti di mare',
+    //     isSpecial: false,
+    //     isAvailable: false,
+    //     ingredients: [
+    //         {
+    //             name: 'Pom.',
+    //             postBake: false,
+    //             sort: 1,
+    //         },
+    //         {
+    //             name: 'Mozz.',
+    //             postBake: false,
+    //             sort: 2,
+    //         },
+    //         {
+    //             name: 'Frutti di mare',
+    //             postBake: false,
+    //             sort: 3,
+    //         },
+    //     ],
+    //     price: {
+    //         rectangularSlice: 650,
+    //         mormal: 950,
+    //         family: 1850,
+    //         regularSlice: 300,
+    //     }
+    // },
     {
         _id: '52',
         name: 'Montanara',
@@ -2311,4 +2317,137 @@ export const pizze: Pizza[] = [
             regularSlice: 300,
         }
     },
+]
+
+export const aggiunte: Item[] = [
+    {
+        _id: '1',
+        name: 'Trancio',
+        price: 100
+    },
+    {
+        _id: '2',
+        name: 'Piadina',
+        price: 100
+    },
+    {
+        _id: '3',
+        name: 'Foccacia',
+        price: 100
+    },
+    {
+        _id: '4',
+        name: 'Rotonda',
+        price: 150
+    },
+    {
+        _id: '5',
+        name: 'Famiglia',
+        price: 400
+    }
+]
+
+export const fritti: Item[] = [
+    {
+        _id: '1',
+        name: 'Anelli di cipolla',
+        price: 300
+    },
+    {
+        _id: '2',
+        name: 'Patatine fritte',
+        price: 300
+    },
+    {
+        _id: '3',
+        name: 'Verdure pastellate',
+        price: 400
+    },
+    {
+        _id: '4',
+        name: 'Olive ascolane',
+        price: 400
+    },
+    {
+        _id: '5',
+        name: 'Mozzarelline',
+        price: 400
+    },
+    {
+        _id: '6',
+        name: 'Fritto misto',
+        price: 1300
+    }
+]
+
+export const altro: Item[] = [
+    {
+        _id: '1',
+        name: 'Spicchio focaccia',
+        price: 400
+    },
+    {
+        _id: '2',
+        name: 'Piadina',
+        price: 500
+    }
+]
+
+export const bere: Item[] = [
+    {
+        _id: '1',
+        name: 'Acqua da 0,5l',
+        price: 100
+    },
+    {
+        _id: '2',
+        name: 'The da 0,55l',
+        price: 150
+    },
+    {
+        _id: '3',
+        name: 'Bibite in lattina da 33cl',
+        price: 200
+    },
+    {
+        _id: '4',
+        name: 'Birre in lattina da 33cl',
+        price: 200
+    },
+    {
+        _id: '5',
+        name: 'Birre in lattina da 0,5l',
+        price: 300
+    },
+    {
+        _id: '6',
+        name: 'Coca in bottiglia da 0,66l',
+        price: 250
+    },
+    {
+        _id: '7',
+        name: 'Coca in bottiglia da 1,5l',
+        price: 300
+    },
+    {
+        _id: '8',
+        name: 'The in bottiglia da 1,5l',
+        price: 250
+    },
+    {
+        _id: '9',
+        name: 'Birre in bottiglia da 33cl (Corona, Tennent\'s, etc...)',
+        price: 300
+    },
+    {
+        _id: '10',
+        name: 'Birre in bottiglia da 66cl',
+        price: 300
+    },
+    {
+        _id: '11',
+        name: 'San Miguel da 1l',
+        price: 350
+    },
+
 ]

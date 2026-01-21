@@ -3,6 +3,10 @@
 @theme {
   --font-arial-black: "Arial Black", "Arial", sans-serif;
   --color-brand-red: #CE2B37;
+
+  --text-tiny: 0.5rem;
+  --text-tiny--line-height: 0em;
+  --text-tiny--letter-spacing: 0rem;
 }
 
 html,
