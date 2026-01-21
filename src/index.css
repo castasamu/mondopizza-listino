@@ -21,7 +21,11 @@ body {
 @media print {
   @page {
     size: A4;
-    margin: 5mm;
+    margin: 10mm;
+  }
+  .page-break {
+    break-before: page;
+    padding-top: 10mm;
   }
 }
 

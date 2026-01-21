@@ -1,12 +1,12 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import App from "./App.tsx";
 import { BrowserRouter, Routes, Route } from "react-router";
-import ListinoDritto from './ListinoDritto.tsx';
-import ListinoProduzione from './ListinoProduzione.tsx';
+import ListinoDritto from "./ListinoDritto.tsx";
+import ListinoProduzione from "./ListinoProduzione.tsx";
 
-createRoot(document.getElementById('root')!).render(
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
@@ -16,4 +16,4 @@ createRoot(document.getElementById('root')!).render(
       </Routes>
     </BrowserRouter>
   </StrictMode>,
-)
+);

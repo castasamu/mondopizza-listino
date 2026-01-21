@@ -1,12 +1,26 @@
 import type { Pizza, Item } from "./pizze";
 import { aggiunte, fritti, pizze, bere } from "./pizze";
 
-const TableStandard = ({ items, name }: { items: Item[]; name: string }) => (
-  <table className="table-auto w-full mt-2 text-[9px]">
+const TableStandard = ({
+  items,
+  name,
+  fontSize = "text-[12px]",
+  headerSize = "text-[14px]",
+}: {
+  items: Item[];
+  name: string;
+  fontSize?: string;
+  headerSize?: string;
+}) => (
+  <table className={`table-auto w-full mt-2 ${fontSize}`}>
     <thead>
       <tr className="border-b border-black">
-        <th className="font-arial-black text-[10px] text-left pb-1">{name}</th>
-        <th className="font-arial-black text-[10px] px-1 text-right">Prezzo</th>
+        <th className={`font-arial-black ${headerSize} text-left pb-1`}>
+          {name}
+        </th>
+        <th className={`font-arial-black ${headerSize} px-1 text-right`}>
+          Prezzo
+        </th>
       </tr>
     </thead>
     <tbody>
@@ -15,9 +29,9 @@ const TableStandard = ({ items, name }: { items: Item[]; name: string }) => (
           key={item._id}
           className={`${index % 2 === 0 ? "bg-gray-50" : ""} border-b border-gray-100`}
         >
-          <td className="py-0.5">{item.name}</td>
+          <td className="py-1">{item.name}</td>
           <td className="text-end px-1 tabular-nums">
-            {(item.price / 100).toFixed(1)}€
+            {(item.price / 100).toFixed(2)}€
           </td>
         </tr>
       ))}
@@ -127,7 +141,7 @@ function ListinoDritto() {
 
   return (
     <div className="listino-container p-2">
-      <div className="flex gap-4">
+      <div className="pizzas flex gap-4">
         {/* Left Column */}
         <div className="flex-1">
           <PizzaTable items={leftColumn} />
@@ -138,13 +152,36 @@ function ListinoDritto() {
           <PizzaTable items={rightColumn} />
         </div>
       </div>
-      <div className="mt-4 grid grid-cols-2 gap-2">
+      <div className="others page-break mt-4 grid grid-cols-2 gap-8 p-8">
         <div>
-          <TableStandard items={aggiunte} name="Aggiunte" />
-          <TableStandard items={fritti} name="Fritti" />
+          <h2 className="font-arial-black text-2xl mb-4 uppercase border-b-2 border-black">
+            Aggiunte e Fritti
+          </h2>
+          <TableStandard
+            items={aggiunte}
+            name="Aggiunte"
+            fontSize="text-[14px]"
+            headerSize="text-[16px]"
+          />
+          <div className="mt-8">
+            <TableStandard
+              items={fritti}
+              name="Fritti"
+              fontSize="text-[14px]"
+              headerSize="text-[16px]"
+            />
+          </div>
         </div>
         <div>
-          <TableStandard items={bere} name="Bere" />
+          <h2 className="font-arial-black text-2xl mb-4 uppercase border-b-2 border-black">
+            Bevande
+          </h2>
+          <TableStandard
+            items={bere}
+            name="Bevande"
+            fontSize="text-[14px]"
+            headerSize="text-[16px]"
+          />
         </div>
       </div>
     </div>
