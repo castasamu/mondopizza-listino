@@ -176,12 +176,12 @@ export const pizze: Pizza[] = [
     //             sort: 1,
     //         },
     //         {
-    //             name: 'Salsiccia Mantovana',
+    //             name: 'Salsiccia',
     //             postBake: false,
     //             sort: 2,
     //         },
     //         {
-    //             name: 'Crema di grana padano DOP',
+    //             name: 'Crema di grana DOP',
     //             postBake: true,
     //             sort: 3,
     //         },
@@ -365,7 +365,7 @@ export const pizze: Pizza[] = [
                 sort: 2,
             },
             {
-                name: 'Salamino piccante',
+                name: 'Salamino',
                 postBake: false,
                 sort: 3,
             },
@@ -423,7 +423,7 @@ export const pizze: Pizza[] = [
                 sort: 2,
             },
             {
-                name: 'Salsiccia Mantovana',
+                name: 'Salsiccia',
                 postBake: false,
                 sort: 3,
             },
@@ -452,7 +452,7 @@ export const pizze: Pizza[] = [
                 sort: 2,
             },
             {
-                name: 'Pomodorini freschi',
+                name: 'Pomodorini',
                 postBake: false,
                 sort: 3,
             },
@@ -462,7 +462,7 @@ export const pizze: Pizza[] = [
                 sort: 4,
             },
             {
-                name: 'Olive nere',
+                name: 'Olive',
                 postBake: false,
                 sort: 5,
             },
@@ -476,7 +476,7 @@ export const pizze: Pizza[] = [
     },
     {
         _id: '7',
-        name: 'Prosciutto e funghi',
+        name: 'P.F.',
         isSpecial: false,
         isAvailable: true,
         ingredients: [
@@ -491,7 +491,7 @@ export const pizze: Pizza[] = [
                 sort: 2,
             },
             {
-                name: 'Prosciutto cotto',
+                name: 'Cotto',
                 postBake: false,
                 sort: 3,
             },
@@ -598,7 +598,7 @@ export const pizze: Pizza[] = [
                 sort: 3,
             },
             {
-                name: 'Pancetta affumicata',
+                name: 'Pancetta aff.',
                 postBake: false,
                 sort: 4,
             },
@@ -627,12 +627,12 @@ export const pizze: Pizza[] = [
                 sort: 2,
             },
             {
-                name: 'Pancetta arrotolata',
+                name: 'Pancetta',
                 postBake: false,
                 sort: 3,
             },
             {
-                name: 'Scamorza affumicata',
+                name: 'Scamorza aff.',
                 postBake: false,
                 sort: 4,
             },
@@ -661,7 +661,7 @@ export const pizze: Pizza[] = [
                 sort: 2,
             },
             {
-                name: 'Salamino piccante',
+                name: 'Salamino',
                 postBake: false,
                 sort: 3,
             },
@@ -676,7 +676,7 @@ export const pizze: Pizza[] = [
                 sort: 5,
             },
             {
-                name: 'Grana padano',
+                name: 'Grana',
                 postBake: false,
                 sort: 6,
             },
@@ -759,12 +759,12 @@ export const pizze: Pizza[] = [
                 sort: 4,
             },
             {
-                name: 'Grana padano',
+                name: 'Grana',
                 postBake: false,
                 sort: 5,
             },
             {
-                name: 'Scamorza affumicata',
+                name: 'Scamorza aff.',
                 postBake: false,
                 sort: 6,
             },
@@ -793,17 +793,17 @@ export const pizze: Pizza[] = [
                 sort: 2,
             },
             {
-                name: 'Pomodorini freschi',
+                name: 'Pomodorini',
                 postBake: false,
                 sort: 3,
             },
             {
-                name: 'Melanzane grigliate',
+                name: 'Melanzane',
                 postBake: false,
                 sort: 4,
             },
             {
-                name: 'Zucchine grigliate',
+                name: 'Zucchine',
                 postBake: false,
                 sort: 5,
             },
@@ -954,7 +954,7 @@ export const pizze: Pizza[] = [
                 sort: 5,
             },
             {
-                name: 'Salamino piccante',
+                name: 'Salamino',
                 postBake: false,
                 sort: 6,
             },
@@ -993,7 +993,7 @@ export const pizze: Pizza[] = [
                 sort: 4,
             },
             {
-                name: 'Pancetta arrotolata',
+                name: 'Pancetta',
                 postBake: false,
                 sort: 5,
             },
@@ -1032,7 +1032,7 @@ export const pizze: Pizza[] = [
                 sort: 4,
             },
             {
-                name: 'Salamino piccante',
+                name: 'Salamino',
                 postBake: false,
                 sort: 5,
             },
@@ -1061,12 +1061,12 @@ export const pizze: Pizza[] = [
                 sort: 2,
             },
             {
-                name: 'Prosciutto cotto',
+                name: 'Cotto',
                 postBake: false,
                 sort: 3,
             },
             {
-                name: 'Zucchine grigliate',
+                name: 'Zucchine',
                 postBake: false,
                 sort: 4,
             },
@@ -1140,7 +1140,7 @@ export const pizze: Pizza[] = [
             },
             {
                 name: 'Speck',
-                postBake: false,
+                postBake: true,
                 sort: 3,
             },
             {
@@ -1149,7 +1149,7 @@ export const pizze: Pizza[] = [
                 sort: 4,
             },
             {
-                name: 'Grana padano',
+                name: 'Grana',
                 postBake: false,
                 sort: 5,
             },
@@ -1217,7 +1217,7 @@ export const pizze: Pizza[] = [
                 sort: 2,
             },
             {
-                name: 'Pancetta affumicata',
+                name: 'Pancetta aff.',
                 postBake: false,
                 sort: 3,
             },
@@ -1227,7 +1227,7 @@ export const pizze: Pizza[] = [
                 sort: 4,
             },
             {
-                name: 'Grana padano',
+                name: 'Grana',
                 postBake: false,
                 sort: 5,
             },
@@ -1256,12 +1256,12 @@ export const pizze: Pizza[] = [
                 sort: 2,
             },
             {
-                name: 'Pomodorini freschi',
+                name: 'Pomodorini',
                 postBake: false,
                 sort: 3,
             },
             {
-                name: 'Grana padano',
+                name: 'Grana',
                 postBake: false,
                 sort: 4,
             },
@@ -1310,7 +1310,7 @@ export const pizze: Pizza[] = [
                 sort: 5,
             },
             {
-                name: 'Scamorza affumicata',
+                name: 'Scamorza aff.',
                 postBake: false,
                 sort: 6,
             },
@@ -1339,7 +1339,7 @@ export const pizze: Pizza[] = [
                 sort: 2,
             },
             {
-                name: 'Pomodorini freschi',
+                name: 'Pomodorini',
                 postBake: false,
                 sort: 3,
             },
@@ -1368,7 +1368,7 @@ export const pizze: Pizza[] = [
                 sort: 2,
             },
             {
-                name: 'Pomodorini freschi',
+                name: 'Pomodorini',
                 postBake: false,
                 sort: 3,
             },
@@ -1378,7 +1378,7 @@ export const pizze: Pizza[] = [
                 sort: 4,
             },
             {
-                name: 'Olive nere',
+                name: 'Olive',
                 postBake: false,
                 sort: 5,
             },
@@ -1422,7 +1422,7 @@ export const pizze: Pizza[] = [
                 sort: 3,
             },
             {
-                name: 'Pancetta arrotolata',
+                name: 'Pancetta',
                 postBake: false,
                 sort: 4,
             },
@@ -1451,7 +1451,7 @@ export const pizze: Pizza[] = [
                 sort: 2,
             },
             {
-                name: 'Prosciutto cotto',
+                name: 'Cotto',
                 postBake: false,
                 sort: 3,
             },
@@ -1534,7 +1534,7 @@ export const pizze: Pizza[] = [
                 sort: 4,
             },
             {
-                name: 'Olive nere',
+                name: 'Olive',
                 postBake: false,
                 sort: 5,
             },
@@ -1602,7 +1602,7 @@ export const pizze: Pizza[] = [
                 sort: 2,
             },
             {
-                name: 'Prosciutto cotto',
+                name: 'Cotto',
                 postBake: false,
                 sort: 3,
             },
@@ -1617,7 +1617,7 @@ export const pizze: Pizza[] = [
                 sort: 5,
             },
             {
-                name: 'Olive nere',
+                name: 'Olive',
                 postBake: false,
                 sort: 6,
             },
@@ -1656,12 +1656,12 @@ export const pizze: Pizza[] = [
                 sort: 4,
             },
             {
-                name: 'Pancetta arrotolata',
+                name: 'Pancetta',
                 postBake: false,
                 sort: 5,
             },
             {
-                name: 'Grana padano',
+                name: 'Grana',
                 postBake: false,
                 sort: 6,
             },
@@ -1729,7 +1729,7 @@ export const pizze: Pizza[] = [
                 sort: 2,
             },
             {
-                name: 'Pancetta arrotolata',
+                name: 'Pancetta',
                 postBake: false,
                 sort: 3,
             },
@@ -1783,7 +1783,7 @@ export const pizze: Pizza[] = [
                 sort: 5,
             },
             {
-                name: 'Pancetta arrotolata',
+                name: 'Pancetta',
                 postBake: false,
                 sort: 6,
             },
@@ -1817,7 +1817,7 @@ export const pizze: Pizza[] = [
                 sort: 3,
             },
             {
-                name: 'Pomodorini freschi',
+                name: 'Pomodorini',
                 postBake: false,
                 sort: 4,
             },
@@ -1851,22 +1851,22 @@ export const pizze: Pizza[] = [
                 sort: 2,
             },
             {
-                name: 'Pomodorini freschi',
+                name: 'Pomodorini',
                 postBake: false,
                 sort: 3,
             },
             {
-                name: 'Scamorza affumicata',
+                name: 'Scamorza aff.',
                 postBake: false,
                 sort: 4,
             },
             {
-                name: 'Pancetta arrotolata',
+                name: 'Pancetta',
                 postBake: false,
                 sort: 5,
             },
             {
-                name: 'Salamino piccante',
+                name: 'Salamino',
                 postBake: false,
                 sort: 6,
             },
@@ -1895,12 +1895,12 @@ export const pizze: Pizza[] = [
                 sort: 2,
             },
             {
-                name: 'Salsiccia Mantovana',
+                name: 'Salsiccia',
                 postBake: false,
                 sort: 3,
             },
             {
-                name: 'Grana padano',
+                name: 'Grana',
                 postBake: false,
                 sort: 5,
             },
@@ -1939,7 +1939,7 @@ export const pizze: Pizza[] = [
                 sort: 4,
             },
             {
-                name: 'Pancetta arrotolata',
+                name: 'Pancetta',
                 postBake: false,
                 sort: 5,
             },
@@ -2017,12 +2017,12 @@ export const pizze: Pizza[] = [
                 sort: 3,
             },
             {
-                name: 'Salsiccia Mantovana',
+                name: 'Salsiccia',
                 postBake: false,
                 sort: 4,
             },
             {
-                name: 'Salamino piccante',
+                name: 'Salamino',
                 postBake: false,
                 sort: 5,
             },
@@ -2144,7 +2144,7 @@ export const pizze: Pizza[] = [
                 sort: 2,
             },
             {
-                name: 'Salsiccia Mantovana',
+                name: 'Salsiccia',
                 postBake: false,
                 sort: 3,
             },
@@ -2154,7 +2154,7 @@ export const pizze: Pizza[] = [
                 sort: 4,
             },
             {
-                name: 'Scamorza affumicata',
+                name: 'Scamorza aff.',
                 postBake: false,
                 sort: 5,
             },
@@ -2183,17 +2183,17 @@ export const pizze: Pizza[] = [
                 sort: 2,
             },
             {
-                name: 'Prosciutto cotto',
+                name: 'Cotto',
                 postBake: false,
                 sort: 3,
             },
             {
-                name: 'Salsiccia Mantovana',
+                name: 'Salsiccia',
                 postBake: false,
                 sort: 4,
             },
             {
-                name: 'Pancetta arrotolata',
+                name: 'Pancetta',
                 postBake: false,
                 sort: 5,
             },
