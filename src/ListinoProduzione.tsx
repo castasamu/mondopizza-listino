@@ -21,6 +21,12 @@ const PizzaItem = ({
   showFirstLetter: boolean;
 }) => {
   const currentFirstLetter = pizza.name.at(0);
+  const hasPostBakeIngredients = pizza.ingredients.some(
+    (ingredient) => ingredient.postBake,
+  );
+  const hasTomato = pizza.ingredients.some(
+    (i) => i.name.toLowerCase() === "pom.",
+  );
   return (
     <>
       <tr className={` font-bold  leading-tight text-xs`}>
@@ -28,9 +34,9 @@ const PizzaItem = ({
           {showFirstLetter ? currentFirstLetter : ""}
         </td>
         <td
-          className={`${index % 2 === 0 ? "bg-gray-200" : ""} text-left py-1 border-b`}
+          className={`${index % 2 === 0 ? "bg-gray-200" : ""} ${!hasTomato ? "text-red-600" : ""} text-left py-1 border-b border-b-black whitespace-nowrap`}
         >
-          {pizza.name}
+          {pizza.name} {hasPostBakeIngredients ? "🫒" : ""}
         </td>
         <td
           className={`${index % 2 === 0 ? "bg-gray-200" : ""} pb-1 leading-none border-b`}
@@ -42,8 +48,7 @@ const PizzaItem = ({
         </td>
         <td
           className={`pb-1 leading-none border-b ${
-            pizza.ingredients.filter((ingredient) => ingredient.postBake)
-              .length > 0
+            hasPostBakeIngredients
               ? "bg-red-100"
               : index % 2 === 0
                 ? "bg-gray-200"
