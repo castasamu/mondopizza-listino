@@ -452,13 +452,13 @@ export const pizze: Pizza[] = [
                 sort: 2,
             },
             {
-                name: 'Pomodorini',
-                postBake: false,
+                name: 'Pmpdori freschi',
+                postBake: true,
                 sort: 3,
             },
             {
                 name: 'Basilico',
-                postBake: false,
+                postBake: true,
                 sort: 4,
             },
             {
