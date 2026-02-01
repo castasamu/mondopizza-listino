@@ -25,7 +25,9 @@ const PizzaItem = ({
     (ingredient) => ingredient.postBake,
   );
   const hasTomato = pizza.ingredients.some(
-    (i) => i.name.toLowerCase() === "pom.",
+    (i) =>
+      i.name.toLowerCase().includes("pom.") ||
+      i.name.toLowerCase() === "pomodorini",
   );
   return (
     <>
@@ -34,9 +36,14 @@ const PizzaItem = ({
           {showFirstLetter ? currentFirstLetter : ""}
         </td>
         <td
-          className={`${index % 2 === 0 ? "bg-gray-200" : ""} ${!hasTomato ? "text-red-600" : ""} text-left py-1 border-b border-b-black whitespace-nowrap`}
+          className={`${index % 2 === 0 ? "bg-gray-200" : ""} ${!hasTomato ? "text-red-700 bg-yellow-50" : ""} text-left py-1 border-b border-b-black whitespace-nowrap`}
         >
           {hasPostBakeIngredients ? "🫒" : ""}
+          {!hasTomato && (
+            <span className="text-[10px] font-black border border-red-700 px-0.5 mr-1 rounded bg-white">
+              NO POM
+            </span>
+          )}
           {pizza.name}
         </td>
         <td
@@ -87,13 +94,16 @@ const PizzaTable = ({ items }: { items: Pizza[] }) => (
   </table>
 );
 
-function ListinoDritto() {
+function ListinoProduzione() {
   const pizzeSorted = [...pizze].sort((a, b) => a.name.localeCompare(b.name));
   return (
-    <div className="listino-container">
+    <div className="listino-container px-4 py-8">
+      <h1 className="text-2xl font-arial-black mb-4 uppercase underline">
+        Listino Produzione
+      </h1>
       <PizzaTable items={pizzeSorted} />
     </div>
   );
 }
 
-export default ListinoDritto;
+export default ListinoProduzione;
