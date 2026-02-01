@@ -36,7 +36,8 @@ const PizzaItem = ({
         <td
           className={`${index % 2 === 0 ? "bg-gray-200" : ""} ${!hasTomato ? "text-red-600" : ""} text-left py-1 border-b border-b-black whitespace-nowrap`}
         >
-          {pizza.name} {hasPostBakeIngredients ? "🫒" : ""}
+          {hasPostBakeIngredients ? "🫒" : ""}
+          {pizza.name}
         </td>
         <td
           className={`${index % 2 === 0 ? "bg-gray-200" : ""} pb-1 leading-none border-b`}
